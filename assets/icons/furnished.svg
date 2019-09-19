@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>03-furnished</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="03-furnished" fill="#4A4A4A">
+            <path d="M16,37 L32,37 L32,35 L16,35 L16,37 Z M16,23 L32,23 L32,21 L16,21 L16,23 Z M16,9 L32,9 L32,7 L16,7 L16,9 Z M6,14 L42,14 L42,2 L6,2 L6,14 Z M6,28 L42,28 L42,16 L6,16 L6,28 Z M42,39 C42,40.654 40.654,42 39,42 L36,42 L34,42 L14,42 L12,42 L9,42 C7.346,42 6,40.654 6,39 L6,30 L42,30 L42,39 Z M48,0 L44,0 L4,0 L0,0 L0,2 L4,2 L4,14 L4,16 L4,28 L4,30 L4,39 C4,41.757 6.243,44 9,44 L12,44 L12,48 L14,48 L14,44 L34,44 L34,48 L36,48 L36,44 L39,44 C41.757,44 44,41.757 44,39 L44,30 L44,28 L44,16 L44,14 L44,2 L48,2 L48,0 Z" id="icon-furnished"></path>
+        </g>
+    </g>
+</svg>

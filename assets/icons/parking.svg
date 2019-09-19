@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="48px"
+   height="48px"
+   viewBox="0 0 48 48"
+   version="1.1"
+   id="svg1161"
+   sodipodi:docname="parking.svg"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)">
+  <metadata
+     id="metadata1165">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>15-parking</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1918"
+     inkscape:window-height="2054"
+     id="namedview1163"
+     showgrid="false"
+     inkscape:zoom="13.906433"
+     inkscape:cx="27.371367"
+     inkscape:cy="5.3801094"
+     inkscape:window-x="-10"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg1161" />
+  <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+  <title
+     id="title1116">15-parking</title>
+  <desc
+     id="desc1118">Created with Sketch.</desc>
+  <defs
+     id="defs1132">
+    <rect
+       id="path-1"
+       x="7"
+       y="7"
+       width="14"
+       height="15"
+       rx="2" />
+    <mask
+       id="mask-2"
+       maskContentUnits="userSpaceOnUse"
+       maskUnits="objectBoundingBox"
+       x="0"
+       y="0"
+       width="14"
+       height="15"
+       fill="white">
+      <use
+         xlink:href="#path-1"
+         id="use1121" />
+    </mask>
+    <rect
+       id="path-3"
+       x="10"
+       y="36"
+       width="8"
+       height="5" />
+    <mask
+       id="mask-4"
+       maskContentUnits="userSpaceOnUse"
+       maskUnits="objectBoundingBox"
+       x="0"
+       y="0"
+       width="8"
+       height="5"
+       fill="white">
+      <use
+         xlink:href="#path-3"
+         id="use1125" />
+    </mask>
+    <rect
+       id="path-5"
+       x="31"
+       y="36"
+       width="8"
+       height="5" />
+    <mask
+       id="mask-6"
+       maskContentUnits="userSpaceOnUse"
+       maskUnits="objectBoundingBox"
+       x="0"
+       y="0"
+       width="8"
+       height="5"
+       fill="white">
+      <use
+         xlink:href="#path-5"
+         id="use1129" />
+    </mask>
+  </defs>
+  <rect
+     id="Rectangle-9"
+     x="0"
+     y="-50"
+     width="48"
+     height="48"
+     style="fill:#ffffff;fill-opacity:0;fill-rule:evenodd;stroke:none;stroke-width:1" />
+  <rect
+     id="Rectangle-2"
+     x="0"
+     y="43"
+     width="48"
+     height="2"
+     style="fill:#4a4a4a;fill-rule:evenodd;stroke:none;stroke-width:1" />
+  <use
+     id="use1136"
+     mask="url(#mask-2)"
+     xlink:href="#path-1"
+     style="fill:none;fill-rule:evenodd;stroke:#4a4a4a;stroke-width:4"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%"
+     transform="translate(12,-42)" />
+  <rect
+     id="rect1150"
+     x="14"
+     y="28"
+     width="16"
+     height="2"
+     style="fill:#4a4a4a;fill-rule:evenodd;stroke:none;stroke-width:1" />
+  <rect
+     id="rect1152"
+     x="15"
+     y="32"
+     width="3.2033899"
+     height="2"
+     style="fill:#4a4a4a;fill-rule:evenodd;stroke:none;stroke-width:0.73068345" />
+  <rect
+     id="rect1154"
+     x="19"
+     y="36"
+     width="11"
+     height="2"
+     style="fill:#4a4a4a;fill-rule:evenodd;stroke:none;stroke-width:1" />
+  <polyline
+     id="Path-10"
+     points="48 16.0023193 35 16.0023193 32 25 30 29 30 35 31.0030518 37 48 37"
+     style="fill:none;fill-rule:evenodd;stroke:#4a4a4a;stroke-width:2"
+     transform="translate(-18,4)" />
+  <rect
+     id="rect1152-8"
+     x="-43.203388"
+     y="14"
+     width="3.2033899"
+     height="2"
+     style="fill:#4a4a4a;fill-rule:evenodd;stroke:none;stroke-width:0.73068345"
+     transform="rotate(-90)" />
+  <rect
+     style="fill:#4a4a4a;fill-rule:evenodd;stroke:none;stroke-width:1"
+     height="2"
+     width="16"
+     y="28"
+     x="-35"
+     id="rect1762"
+     transform="scale(-1,1)" />
+  <rect
+     style="fill:#4a4a4a;fill-rule:evenodd;stroke:none;stroke-width:0.73068345"
+     height="2"
+     width="3.2033899"
+     y="32"
+     x="-34"
+     id="rect1764"
+     transform="scale(-1,1)" />
+  <rect
+     style="fill:#4a4a4a;fill-rule:evenodd;stroke:none;stroke-width:1"
+     height="2"
+     width="11"
+     y="36"
+     x="-30"
+     id="rect1766"
+     transform="scale(-1,1)" />
+  <polyline
+     transform="matrix(-1,0,0,1,67,4)"
+     style="fill:none;fill-rule:evenodd;stroke:#4a4a4a;stroke-width:2"
+     points="48 16.0023193 35 16.0023193 32 25 30 29 30 35 31.0030518 37 48 37"
+     id="polyline1768" />
+  <rect
+     transform="matrix(0,-1,-1,0,0,0)"
+     style="fill:#4a4a4a;fill-rule:evenodd;stroke:none;stroke-width:0.73068345"
+     height="2"
+     width="3.2033899"
+     y="-35"
+     x="-43.203388"
+     id="rect1770" />
+  <rect
+     id="Rectangle-2-0"
+     x="5.6440682"
+     y="10.576271"
+     width="37.881355"
+     height="2"
+     style="fill:#4a4a4a;fill-rule:evenodd;stroke:none;stroke-width:0.8883664" />
+  <rect
+     style="fill:#4a4a4a;fill-rule:evenodd;stroke:none;stroke-width:0.84622788"
+     height="2"
+     width="34.372879"
+     y="5.6440682"
+     x="-44.94915"
+     id="rect1787"
+     transform="rotate(-90)" />
+  <rect
+     transform="rotate(-90)"
+     id="rect1789"
+     x="-44.94915"
+     y="41.491528"
+     width="34.372879"
+     height="2"
+     style="fill:#4a4a4a;fill-rule:evenodd;stroke:none;stroke-width:0.84622788" />
+</svg>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>04-living-rooms</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="04-living-rooms">
+            <rect id="Rectangle-9" fill-opacity="0" fill="#FFFFFF" x="0" y="0" width="48" height="48"></rect>
+            <rect id="Rectangle-3" fill="#4A4A4A" x="6" y="39" width="2" height="4"></rect>
+            <rect id="Rectangle-3" fill="#4A4A4A" transform="translate(19.000000, 17.000000) rotate(45.000000) translate(-19.000000, -17.000000) " x="18" y="14" width="2" height="6"></rect>
+            <rect id="Rectangle-3" fill="#4A4A4A" transform="translate(19.000000, 17.000000) rotate(-45.000000) translate(-19.000000, -17.000000) " x="18" y="14" width="2" height="6"></rect>
+            <rect id="Rectangle-3" fill="#4A4A4A" transform="translate(29.000000, 17.000000) rotate(45.000000) translate(-29.000000, -17.000000) " x="28" y="14" width="2" height="6"></rect>
+            <rect id="Rectangle-3" fill="#4A4A4A" transform="translate(29.000000, 17.000000) rotate(-45.000000) translate(-29.000000, -17.000000) " x="28" y="14" width="2" height="6"></rect>
+            <path d="M2,34.9904421 C2,36.0972425 2.90202304,37 4.00989318,37 L43.9901068,37 C45.1008925,37 46,36.1007759 46,34.9904421 L46,19 L39.9958262,19 C38.8994682,19 38,19.9014322 38,21.009763 L38,29 L10,29 L10,21.009763 C10,19.893952 9.10801304,19 8.00417376,19 L2,19 L2,34.9904421 Z M0,17 L8.00417376,17 C10.2110077,17 12,18.7877996 12,21.009763 L12,27 L36,27 L36,21.009763 C36,18.795232 37.7965212,17 39.9958262,17 L48,17 L48,34.9904421 C48,37.2048598 46.2059475,39 43.9901068,39 L4.00989318,39 C1.79529033,39 0,37.1996477 0,34.9904421 L0,17 Z" id="Rectangle-3" fill="#4A4A4A" fill-rule="nonzero"></path>
+            <rect id="Rectangle-3" fill="#4A4A4A" x="40" y="39" width="2" height="4"></rect>
+            <path d="M7,19 L7,10.0065045 C7,8.3446764 8.33891462,7 9.99017859,7 L38.0098214,7 C39.6602694,7 41,8.34525216 41,10.0065045 L41,19 L43,19 L43,10.0065045 C43,7.24251987 40.7666845,5 38.0098214,5 L9.99017859,5 C7.23241804,5 5,7.24202486 5,10.0065045 L5,19 L7,19 Z" id="Path-4" fill="#4A4A4A" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

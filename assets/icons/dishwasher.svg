@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>08-dishwasher</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="10" y="7" width="28" height="34"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="28" height="34" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="hotel-room-detail" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="08-dishwasher">
+            <rect id="Rectangle-9" x="0" y="0" width="48" height="48"></rect>
+            <rect id="Rectangle-2" fill="#4A4A4A" x="0" y="39" width="48" height="2"></rect>
+            <use id="Rectangle-2" stroke="#4A4A4A" mask="url(#mask-2)" stroke-width="4" xlink:href="#path-1"></use>
+            <rect id="Rectangle-2" fill="#4A4A4A" x="20" y="10" width="8" height="2"></rect>
+            <rect id="Rectangle-2" fill="#4A4A4A" x="18" y="17" width="12" height="2"></rect>
+            <rect id="Rectangle-2" fill="#4A4A4A" x="16" y="10" width="2" height="2"></rect>
+            <rect id="Rectangle-2" fill="#4A4A4A" x="30" y="10" width="2" height="2"></rect>
+            <rect id="Rectangle-2" fill="#4A4A4A" x="10" y="13" width="28" height="2"></rect>
+            <rect id="Rectangle-2" fill="#4A4A4A" x="10" y="33" width="28" height="2"></rect>
+        </g>
+    </g>
+</svg>

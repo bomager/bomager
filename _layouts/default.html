@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="{{'/assets/main.css' | prepend: site.baseurl}}">
+  </head>
+  <body>
+
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="#">Bomager 8, 2640 Hedehusene</a>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item{% if page.lang == 'da' %} active{% endif %}">
+              <a class="nav-link" href="/">Dansk</a>
+            </li>
+            <li class="nav-item{% if page.lang == 'en' %} active{% endif %}">
+              <a class="nav-link" href="/english">English</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <div class="container marketing"><h1 class="page-heading">Bomager 8, 2640 Hedehusene</h1><p>
+        {% assign image_files = site.static_files | where: "image", true %}
+        {% assign first_image = "/img/stue_01.jpg" %}
+        
+        <div id="carouselExampleControls" class="carousel slide " data-interval="false" >
+          <div class="carousel-inner">
+          {% for myimage in image_files %}
+            <div class="carousel-item{% if myimage.path == first_image %} active{% endif %}">
+                <img src="{{ myimage.path }}" class="d-block w-100">
+            </div>
+          {% endfor %}
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+        
+        <h4>{{ page.housedetails }}</h4>
+        
+        <hr class="mb-4">
+        
+        <div class="container icons">
+            <div class="row specification__row">
+        
+                <div class="col-2 col-md-1 text-center specification__item">
+                    <img src="/assets/icons/size.svg">
+                    <h5>110 m²</h5>
+                </div>
+        
+                <div class="col-2 col-md-1 text-center specification__item">
+                    <img src="/assets/icons/housing-type.svg">
+                    <h5>Villa</h5>
+                </div>
+        
+                <div class="col-2 col-md-1 text-center specification__item">
+                    <img src="/assets/icons/furnished.svg">
+                    <h5>{{ page.furnished }}</h5>
+                </div>
+        
+                <div class="col-2 col-md-1 text-center specification__item">
+                    <img src="/assets/icons/rooms.svg">
+                    <h5>3&nbsp;{{ page.bedrooms }}</h5>
+                </div>
+
+                <div class="col-2 col-md-1 text-center specification__item">
+                    <img src="/assets/icons/living-rooms.svg">
+                    <h5>1&nbsp;{{ page.livingroom }}</h5>
+                </div>
+        
+                <div class="col-2 col-md-1 text-center specification__item">
+                    <img src="/assets/icons/bathrooms.svg">
+                    <h5>1&nbsp;{{ page.bathroom }}</h5>
+                </div>
+        
+                <div class="col-2 col-md-1 text-center specification__item">
+                        <img src="/assets/icons/guest_toilet.svg">
+                        <h5>1&nbsp;{{ page.toilet }}</h5>
+                </div>
+        
+                <div class="col-2 col-md-1 text-center specification__item">
+                    <img src="/assets/icons/udestue.svg">
+                    <h5>1&nbsp;{{ page.sunroom }}</h5>
+                </div>
+
+                <div class="col-2 col-md-1 text-center specification__item">
+                    <img src="/assets/icons/s-train.svg">
+                    <h5>{{ page.transport }}</h5>
+                </div>
+        
+                <div class="col-2 col-md-1 text-center specification__item">
+                    <img src="/assets/icons/highway.svg">
+                    <h5>{{ page.highway }}</h5>
+                </div>
+        
+                <div class="col-2 col-md-1 text-center specification__item">
+                    <img src="/assets/icons/school.svg">
+                    <h5>{{ page.school }}</h5>
+                </div>
+        
+                <div class="col-2 col-md-1 text-center specification__item">
+                    <img src="/assets/icons/terrace.svg">
+                    <h5>{{ page.terrace }}</h5>
+                </div>
+        
+                <div class="col-2 col-md-1 text-center specification__item">
+                    <img src="/assets/icons/parking.svg">
+                    <h5>{{ page.parking }}</h5>
+                </div>
+        
+                <div class="col-2 col-md-1 text-center specification__item">
+                    <img src="/assets/icons/dishwasher.svg">
+                    <h5>{{ page.dishwasher }}</h5>
+                </div>
+        
+                <div class="col-2 col-md-1 text-center specification__item">
+                    <img src="/assets/icons/washing-machine.svg">
+                    <h5>{{ page.washingmachine }}</h5>
+                </div>
+        
+                <div class="col-2 col-md-1 text-center specification__item">
+                    <img src="/assets/icons/dryer.svg">
+                    <h5>{{ page.dryer }}</h5>
+                </div>
+        
+                <div class="col-2 col-md-1 text-center specification__item">
+                    <img src="/assets/icons/hasgarden.svg">
+                    <h5>{{ page.garden }}</h5>
+                </div>
+        
+                <div class="col-2 col-md-1 text-center specification__item">
+                    <img src="/assets/icons/hasstorageroom.svg">
+                    <h5>{{ page.storage }}</h5>
+                </div>
+                
+                <div class="col-2 col-md-1 text-center specification__item">
+                    <img src="/assets/icons/is_residence_required.svg">
+                    <h5>{{ page.residency }}</h5>
+                </div>
+            </div>
+        </div>
+        
+        
+        {{ content }}
+
+        <hr class="mb-4">
+        
+        <h4>{{ page.details }}</h4>
+        
+        <div class="container icons">
+            <div class="row hd-item__row">
+                <div class="col-ready lg-4-7">
+                    <div class="row">
+        
+                        <div class="details-of-rental col-md-6">
+                            <div class="row">
+                                <div class="col-6 col-md-12">
+                                    <p>{{ page.rent }}</p>
+                                </div>
+                                <div class="col-6 col-md-12">
+                                    <p class="text-dark">13.000 DKK</p>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="details-of-rental col-md-6">
+                            <div class="row">
+                                <div class="col-6 col-md-12">
+                                    <p>{{ page.deposit }}</p>
+                                </div>
+                                <div class="col-6 col-md-12">
+                                    <p class="text-dark">
+                                        39.000 DKK</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="details-of-rental col-md-6">
+                            <div class="row">
+                                <div class="col-6 col-md-12">
+                                    <p>{{ page.water }}</p>
+                                </div>
+                                <div class="col-6 col-md-12">
+                                    <p class="text-dark">
+                                        250 DKK</p>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="details-of-rental col-md-6">
+                            <div class="row">
+                                <div class="col-6 col-md-12">
+                                    <p>{{ page.heat }}</p>
+                                </div>
+                                <div class="col-6 col-md-12">
+                                    <p class="text-dark">
+                                        900 DKK</p>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="details-of-rental col-md-6">
+                            <div class="row">
+                                <div class="col-6 col-md-12">
+                                    <p>{{ page.residency }}</p>
+                                </div>
+                                <div class="col-6 col-md-12">
+                                    <p class="text-dark">
+                                        {{ page.affirmative }}</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mapouter container"><div class="gmap_canvas"><iframe width="800" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=bomager%208%2C%202640&t=&z=11&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.utilitysavingexpert.com">Utility Saving Expert</a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:800px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:800px;}</style></div>
+        
+    </div>
+    <script src="{{'/assets/jquery.min.js' | prepend: site.baseurl}}"></script>
+    <script src="{{'/assets/popper.js/dist/umd/popper.min.js' | prepend: site.baseurl}}"></script>
+    <script src="{{'/assets/bootstrap/dist/js/bootstrap.min.js' | prepend: site.baseurl}}"></script>
+    <script>
+      $(function() {
+        $('a[href^="mailto:"]').each(function() {
+          this.href = this.href.replace('(aat)', '@').replace(/\(dott\)/g, '.');
+          // Remove this line if you don't want to set the email address as link text:
+          this.innerHTML = this.href.replace('mailto:', '');
+        });
+        });
+  </script>
+  </body>
+</html>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>06-bathrooms</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="06-bathrooms">
+            <rect id="Rectangle-9" fill-opacity="0" fill="#FFFFFF" x="0" y="0" width="48" height="48"></rect>
+            <path d="M48,17 L0,17 L0,19 C0,30.046 6.954,39 18,39 L30,39 C41.046,39 48,30.046 48,19 L48,17 Z M46,19 C46,29.598 39.421,37 30,37 L18,37 C8.579,37 2,29.598 2,19 L46,19 L46,19 Z" id="Page-1" fill="#4A4A4A"></path>
+            <rect id="Rectangle-3" fill="#4A4A4A" x="29" y="21" width="14" height="2"></rect>
+            <rect id="Rectangle-5" fill="#4A4A4A" x="4" y="9" width="2" height="9"></rect>
+            <rect id="Rectangle-5" fill="#4A4A4A" x="4" y="9" width="8" height="2"></rect>
+            <rect id="Rectangle-5" fill="#4A4A4A" x="12" y="9" width="2" height="4"></rect>
+            <path d="M9.29792459,35.3019785 L7.29792459,37.2738163 L8.70207541,38.6980215 L10.7020754,36.7261837 L9.29792459,35.3019785 Z M10.7020754,36.7261837 L9.29792459,35.3019785 L7.29792459,37.2738163 L8.70207541,38.6980215 L10.7020754,36.7261837 Z" id="Path-5" fill="#4A4A4A" fill-rule="nonzero"></path>
+            <path d="M37.2979246,36.7261837 L39.2979246,38.6980215 L40.7020754,37.2738163 L38.7020754,35.3019785 L37.2979246,36.7261837 Z M38.7020754,35.3019785 L37.2979246,36.7261837 L39.2979246,38.6980215 L40.7020754,37.2738163 L38.7020754,35.3019785 Z" id="Path-5" fill="#4A4A4A" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

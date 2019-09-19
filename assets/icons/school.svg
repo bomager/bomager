@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>08-school</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="08-school" fill="#4A4A4A">
+            <rect id="Rectangle-2" x="0" y="46" width="48" height="2"></rect>
+            <path d="M7,46 L41,46 L41,10 L7,10 L7,46 Z M5,8 L43,8 L43,48 L5,48 L5,8 Z" id="Rectangle-2" fill-rule="nonzero"></path>
+            <rect id="Rectangle-2" x="4" y="26" width="40" height="2"></rect>
+            <rect id="Rectangle-2" x="4" y="8" width="40" height="2"></rect>
+            <rect id="Rectangle-2" x="11" y="26" width="2" height="20"></rect>
+            <rect id="Rectangle-2" x="35" y="26" width="2" height="20"></rect>
+            <path d="M23,20 L25,20 L25,16 L23,16 L23,20 Z M21,14 L27,14 L27,22 L21,22 L21,14 Z" id="Rectangle-2" fill-rule="nonzero"></path>
+            <path d="M16,20 L18,20 L16,22 L16,20 Z M14,16 L14,20 L16,20 L16,16 L14,16 Z M12,14 L18,14 L18,22 L12,22 L12,14 Z" id="Rectangle-2" fill-rule="nonzero"></path>
+            <path d="M34,20 L36,20 L34,22 L34,20 Z M32,20 L34,20 L34,16 L32,16 L32,20 Z M30,14 L36,14 L36,22 L30,22 L30,14 Z" id="Rectangle-2" fill-rule="nonzero"></path>
+            <path d="M25,4 L29,4 L29,2 L25,2 L25,4 Z M23,0 L31,0 L31,6 L23,6 L23,0 Z" id="Rectangle-2" fill-rule="nonzero"></path>
+            <path d="M19,46 L29,46 L29,34 L19,34 L19,46 Z M17,32 L31,32 L31,48 L17,48 L17,32 Z" id="Rectangle-2" fill-rule="nonzero"></path>
+            <rect id="Rectangle-2" x="23" y="32" width="2" height="16"></rect>
+            <rect id="Rectangle-2" x="22" y="39" width="4" height="2"></rect>
+            <rect id="Rectangle-2" x="23" y="0" width="2" height="10"></rect>
+        </g>
+    </g>
+</svg>

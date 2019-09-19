@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>02-housing-type</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="02-housing-type" fill="#4A4A4A">
+            <path d="M21,36 L21,46 L27,46 L27,36 L21,36 Z M19,34 L29,34 L29,48 L19,48 L19,34 Z" id="Rectangle" fill-rule="nonzero"></path>
+            <rect id="Rectangle-2" x="0" y="46" width="48" height="2"></rect>
+            <rect id="Rectangle-2" x="8" y="5" width="2" height="15"></rect>
+            <rect id="Rectangle-2" x="38" y="2" width="2" height="45"></rect>
+            <rect id="Rectangle-2" x="8" y="27" width="2" height="19"></rect>
+            <path d="M8,27 L29,27 L29,21 L8,21 L8,27 Z M6,19 L31,19 L31,29 L6,29 L6,19 Z" id="Rectangle-2" fill-rule="nonzero"></path>
+            <path d="M21,19 L27,19 L27,13 L21,13 L21,19 Z M19,11 L29,11 L29,21 L19,21 L19,11 Z" id="Rectangle-2" fill-rule="nonzero"></path>
+            <polygon id="Path-6" fill-rule="nonzero" points="41.8895685 0.00611626533 5.88956847 4.00611627 6.11043153 5.99388373 42.1104315 1.99388373"></polygon>
+        </g>
+    </g>
+</svg>
