@@ -32,7 +32,7 @@
           <div class="carousel-inner">
           {% for myimage in image_files %}
             <div class="carousel-item{% if myimage.path == first_image %} active{% endif %}">
-                <img src="{{ myimage.path }}" class="d-block w-100">
+                <img src="{{site.baseurl}}/{{ myimage.path }}" class="d-block w-100">
             </div>
           {% endfor %}
           </div>
@@ -54,97 +54,97 @@
             <div class="row specification__row">
         
                 <div class="col-2 col-md-1 text-center specification__item">
-                    <img src="/assets/icons/size.svg">
+                    <img src="{{site.baseurl}}/assets/icons/size.svg">
                     <h5>110 m²</h5>
                 </div>
         
                 <div class="col-2 col-md-1 text-center specification__item">
-                    <img src="/assets/icons/housing-type.svg">
+                    <img src="{{site.baseurl}}/assets/icons/housing-type.svg">
                     <h5>Villa</h5>
                 </div>
         
                 <div class="col-2 col-md-1 text-center specification__item">
-                    <img src="/assets/icons/furnished.svg">
+                    <img src="{{site.baseurl}}/assets/icons/furnished.svg">
                     <h5>{{ page.furnished }}</h5>
                 </div>
         
                 <div class="col-2 col-md-1 text-center specification__item">
-                    <img src="/assets/icons/rooms.svg">
+                    <img src="{{site.baseurl}}/assets/icons/rooms.svg">
                     <h5>3&nbsp;{{ page.bedrooms }}</h5>
                 </div>
 
                 <div class="col-2 col-md-1 text-center specification__item">
-                    <img src="/assets/icons/living-rooms.svg">
+                    <img src="{{site.baseurl}}/assets/icons/living-rooms.svg">
                     <h5>1&nbsp;{{ page.livingroom }}</h5>
                 </div>
         
                 <div class="col-2 col-md-1 text-center specification__item">
-                    <img src="/assets/icons/bathrooms.svg">
+                    <img src="{{site.baseurl}}/assets/icons/bathrooms.svg">
                     <h5>1&nbsp;{{ page.bathroom }}</h5>
                 </div>
         
                 <div class="col-2 col-md-1 text-center specification__item">
-                        <img src="/assets/icons/guest_toilet.svg">
+                        <img src="{{site.baseurl}}/assets/icons/guest_toilet.svg">
                         <h5>1&nbsp;{{ page.toilet }}</h5>
                 </div>
         
                 <div class="col-2 col-md-1 text-center specification__item">
-                    <img src="/assets/icons/udestue.svg">
+                    <img src="{{site.baseurl}}/assets/icons/udestue.svg">
                     <h5>1&nbsp;{{ page.sunroom }}</h5>
                 </div>
 
                 <div class="col-2 col-md-1 text-center specification__item">
-                    <img src="/assets/icons/s-train.svg">
+                    <img src="{{site.baseurl}}/assets/icons/s-train.svg">
                     <h5>{{ page.transport }}</h5>
                 </div>
         
                 <div class="col-2 col-md-1 text-center specification__item">
-                    <img src="/assets/icons/highway.svg">
+                    <img src="{{site.baseurl}}/assets/icons/highway.svg">
                     <h5>{{ page.highway }}</h5>
                 </div>
         
                 <div class="col-2 col-md-1 text-center specification__item">
-                    <img src="/assets/icons/school.svg">
+                    <img src="{{site.baseurl}}/assets/icons/school.svg">
                     <h5>{{ page.school }}</h5>
                 </div>
         
                 <div class="col-2 col-md-1 text-center specification__item">
-                    <img src="/assets/icons/terrace.svg">
+                    <img src="{{site.baseurl}}/assets/icons/terrace.svg">
                     <h5>{{ page.terrace }}</h5>
                 </div>
         
                 <div class="col-2 col-md-1 text-center specification__item">
-                    <img src="/assets/icons/parking.svg">
+                    <img src="{{site.baseurl}}/assets/icons/parking.svg">
                     <h5>{{ page.parking }}</h5>
                 </div>
         
                 <div class="col-2 col-md-1 text-center specification__item">
-                    <img src="/assets/icons/dishwasher.svg">
+                    <img src="{{site.baseurl}}/assets/icons/dishwasher.svg">
                     <h5>{{ page.dishwasher }}</h5>
                 </div>
         
                 <div class="col-2 col-md-1 text-center specification__item">
-                    <img src="/assets/icons/washing-machine.svg">
+                    <img src="{{site.baseurl}}/assets/icons/washing-machine.svg">
                     <h5>{{ page.washingmachine }}</h5>
                 </div>
         
                 <div class="col-2 col-md-1 text-center specification__item">
-                    <img src="/assets/icons/dryer.svg">
+                    <img src="{{site.baseurl}}/assets/icons/dryer.svg">
                     <h5>{{ page.dryer }}</h5>
                 </div>
         
                 <div class="col-2 col-md-1 text-center specification__item">
-                    <img src="/assets/icons/hasgarden.svg">
+                    <img src="{{site.baseurl}}/assets/icons/hasgarden.svg">
                     <h5>{{ page.garden }}</h5>
                 </div>
         
                 <div class="col-2 col-md-1 text-center specification__item">
-                    <img src="/assets/icons/hasstorageroom.svg">
+                    <img src="{{site.baseurl}}/assets/icons/hasstorageroom.svg">
                     <h5>{{ page.storage }}</h5>
                 </div>
                 
                 <div class="col-2 col-md-1 text-center specification__item">
-                    <img src="/assets/icons/is_residence_required.svg">
+                    <img src="{{site.baseurl}}/assets/icons/is_residence_required.svg">
                     <h5>{{ page.residency }}</h5>
                 </div>
             </div>
