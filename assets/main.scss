@@ -45,7 +45,6 @@
 
 div.icons {
   width: 90%;
-  margin-left: 50px;
 }
 
 .specification__item h5 {
@@ -81,5 +80,8 @@ h3 {
 @include media-breakpoint-down(sm) {
   .not-small {
     display: none;
+  }
+  div.icons {
+    width: 100%;
   }
 }
