@@ -9,22 +9,23 @@
   <body>
 
     <header>
-      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        <a class="navbar-brand" href="#">Bomager 8, 2640 Hedehusene</a>
+      <nav class="navbar navbar-expand navbar-dark fixed-top bg-dark">
+        <div class="navbar-brand">Bomager 8<span class="not-small">, 2640 Hedehusene</span></div>
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item{% if page.lang == 'da' %} active{% endif %}">
               <a class="nav-link" href="{{site.baseurl}}/">Dansk</a>
             </li>
             <li class="nav-item{% if page.lang == 'en' %} active{% endif %}">
-              <a class="nav-link" href="{{site.baseurl}}//english">English</a>
+              <a class="nav-link" href="{{site.baseurl}}/english">English</a>
             </li>
           </ul>
         </div>
       </nav>
     </header>
 
-    <div class="container marketing"><h1 class="page-heading">Bomager 8, 2640 Hedehusene</h1><p>
+    <div class="container marketing">
+        <p>
         {% assign image_files = site.static_files | where: "image", true %}
         {% assign first_image = "/assets/img/stue_01.jpg" %}
         
@@ -32,7 +33,7 @@
           <div class="carousel-inner">
           {% for myimage in image_files %}
             <div class="carousel-item{% if myimage.path == first_image %} active{% endif %}">
-                <img src="{{site.baseurl}}/{{ myimage.path }}" class="d-block w-100">
+                <img src="{{ myimage.path | prepend: site.baseurl }}" class="d-block w-100">
             </div>
           {% endfor %}
           </div>
@@ -53,97 +54,97 @@
         <div class="container icons">
             <div class="row specification__row">
         
-                <div class="col-2 col-md-1 text-center specification__item">
+                <div class="col-sm text-center specification__item">
                     <img src="{{site.baseurl}}/assets/icons/size.svg">
                     <h5>110 m²</h5>
                 </div>
         
-                <div class="col-2 col-md-1 text-center specification__item">
+                <div class="col-sm text-center specification__item">
                     <img src="{{site.baseurl}}/assets/icons/housing-type.svg">
                     <h5>Villa</h5>
                 </div>
         
-                <div class="col-2 col-md-1 text-center specification__item">
+                <div class="col-sm text-center specification__item">
                     <img src="{{site.baseurl}}/assets/icons/furnished.svg">
                     <h5>{{ page.furnished }}</h5>
                 </div>
         
-                <div class="col-2 col-md-1 text-center specification__item">
+                <div class="col-sm text-center specification__item">
                     <img src="{{site.baseurl}}/assets/icons/rooms.svg">
                     <h5>3&nbsp;{{ page.bedrooms }}</h5>
                 </div>
 
-                <div class="col-2 col-md-1 text-center specification__item">
+                <div class="col-sm text-center specification__item">
                     <img src="{{site.baseurl}}/assets/icons/living-rooms.svg">
                     <h5>1&nbsp;{{ page.livingroom }}</h5>
                 </div>
         
-                <div class="col-2 col-md-1 text-center specification__item">
+                <div class="col-sm text-center specification__item">
                     <img src="{{site.baseurl}}/assets/icons/bathrooms.svg">
                     <h5>1&nbsp;{{ page.bathroom }}</h5>
                 </div>
         
-                <div class="col-2 col-md-1 text-center specification__item">
-                        <img src="{{site.baseurl}}/assets/icons/guest_toilet.svg">
-                        <h5>1&nbsp;{{ page.toilet }}</h5>
+                <div class="col-sm text-center specification__item">
+                    <img src="{{site.baseurl}}/assets/icons/guest_toilet.svg">
+                    <h5>1&nbsp;{{ page.toilet }}</h5>
                 </div>
         
-                <div class="col-2 col-md-1 text-center specification__item">
+                <div class="col-sm text-center specification__item">
                     <img src="{{site.baseurl}}/assets/icons/udestue.svg">
                     <h5>1&nbsp;{{ page.sunroom }}</h5>
                 </div>
 
-                <div class="col-2 col-md-1 text-center specification__item">
+                <div class="col-sm text-center specification__item">
                     <img src="{{site.baseurl}}/assets/icons/s-train.svg">
                     <h5>{{ page.transport }}</h5>
                 </div>
         
-                <div class="col-2 col-md-1 text-center specification__item">
+                <div class="col-sm text-center specification__item">
                     <img src="{{site.baseurl}}/assets/icons/highway.svg">
                     <h5>{{ page.highway }}</h5>
                 </div>
-        
-                <div class="col-2 col-md-1 text-center specification__item">
+
+                <div class="col-sm text-center specification__item">
                     <img src="{{site.baseurl}}/assets/icons/school.svg">
                     <h5>{{ page.school }}</h5>
                 </div>
         
-                <div class="col-2 col-md-1 text-center specification__item">
+                <div class="col-sm text-center specification__item">
                     <img src="{{site.baseurl}}/assets/icons/terrace.svg">
                     <h5>{{ page.terrace }}</h5>
                 </div>
         
-                <div class="col-2 col-md-1 text-center specification__item">
+                <div class="col-sm text-center specification__item">
                     <img src="{{site.baseurl}}/assets/icons/parking.svg">
                     <h5>{{ page.parking }}</h5>
                 </div>
         
-                <div class="col-2 col-md-1 text-center specification__item">
+                <div class="col-sm text-center specification__item">
                     <img src="{{site.baseurl}}/assets/icons/dishwasher.svg">
                     <h5>{{ page.dishwasher }}</h5>
                 </div>
         
-                <div class="col-2 col-md-1 text-center specification__item">
+                <div class="col-sm text-center specification__item">
                     <img src="{{site.baseurl}}/assets/icons/washing-machine.svg">
                     <h5>{{ page.washingmachine }}</h5>
                 </div>
         
-                <div class="col-2 col-md-1 text-center specification__item">
+                <div class="col-sm text-center specification__item">
                     <img src="{{site.baseurl}}/assets/icons/dryer.svg">
                     <h5>{{ page.dryer }}</h5>
                 </div>
         
-                <div class="col-2 col-md-1 text-center specification__item">
+                <div class="col-sm text-center specification__item">
                     <img src="{{site.baseurl}}/assets/icons/hasgarden.svg">
                     <h5>{{ page.garden }}</h5>
                 </div>
         
-                <div class="col-2 col-md-1 text-center specification__item">
+                <div class="col-sm text-center specification__item">
                     <img src="{{site.baseurl}}/assets/icons/hasstorageroom.svg">
                     <h5>{{ page.storage }}</h5>
                 </div>
                 
-                <div class="col-2 col-md-1 text-center specification__item">
+                <div class="col-sm text-center specification__item">
                     <img src="{{site.baseurl}}/assets/icons/is_residence_required.svg">
                     <h5>{{ page.residency }}</h5>
                 </div>
