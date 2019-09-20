@@ -38,7 +38,7 @@ We are looking to find a responsible tenant to enjoy our comfortable cozy home i
 The house has been newly renovated and is fully functional. It has three bedrooms and two washrooms. It has an open kitchen connected to the dining room and the living room. There is a separate laundry room equipped with washer and dryer. The living room has large top to floor windows which opens to a sunroom looking out to a cozy garden. The house has a good sheltered and locked storage space for bikes and equipments, as well as a separate toolshed for hobbies. 
 </p>
 <p>
-This house is unfurnished and is available for rent from now to July 2020. 
+This house is unfurnished but has lamps and curtains and is available for rent from now to July 2020.
 </p>
 <p>
 Contact: <a href="mailto:martinhansdk(aat)gmail(dott)com">martinhansdk aat gmail dott com</a>

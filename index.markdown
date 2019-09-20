@@ -43,7 +43,7 @@ Huset har et praktisk bryggers med vaskemaskine og tørretumbler.
 Ud over carport er der aflåst cykelskur med rigelig plads til opbevaring samt et værksted.
 </p>
 <p>
-Huset overtages umøbleret, er klar til indflytning straks og kan lejes frem til juli 2020.
+Huset overtages umøbleret men har lamper og gardiner i alle rum, er klar til indflytning straks og kan lejes frem til juli 2020.
 </p>
 <p>
 Kontakt: <a href="mailto:martinhansdk(aat)gmail(dott)com">martinhansdk aat gmail dott com</a>
